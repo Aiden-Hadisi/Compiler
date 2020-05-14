@@ -69,7 +69,7 @@ bool SyntaxAnalyzer::id() {
 void SyntaxAnalyzer::next() {
   m_index++;
   if(m_index >= m_tokens.size()) {
-    m_current = {"", ""};
+    m_current = {"$", "$"};
   }
   else {
     m_current = m_tokens.at(m_index);

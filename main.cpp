@@ -1,7 +1,7 @@
 #include<iostream>
 #include <fstream>
 #include "lexical-tests.h"
-#include "syntax.h"
+#include "LLParser.h"
 using namespace std;
 /**
 Lexical analyzer by Aiden Hadisi
@@ -14,8 +14,8 @@ lexer.cpp contains function definitions
 void
 syntax(std::string s)
 {
-    SyntaxAnalyzer syntaxAnalyzer(s);
-    syntaxAnalyzer.analyzer();
+    LLParser llParser(s);
+    llParser.analyzer();
 
 }
 

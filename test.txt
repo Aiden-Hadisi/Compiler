@@ -1,5 +1,8 @@
-c = a / b
-c = a + c
-c + (a / c)
-int x;
-while (true)
+! Find the sum between two numbers!
+int num
+int nu2m
+int sum
+num = 0
+nu2m = 15
+sum = 0
+sum = num + nu2m
